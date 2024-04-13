@@ -111,10 +111,13 @@ reglas = [
     {"si": {"tiempo": "Corto", "preferencia": "Saludable", "vegetariano": "Sí", "diabetico": "No", "categoria_comida": "Ensaladas"}, "entonces": "Ensalada Individual"},
     {"si": {"tiempo": "Medio", "preferencia": "Saludable", "vegetariano": "Sí", "diabetico": "No", "categoria_comida": "Ensaladas"}, "entonces": "Ensalada Delight"},
     {"si": {"tiempo": "Largo", "preferencia": "Saludable", "vegetariano": "No", "diabetico": "No", "categoria_comida": "Ensaladas"}, "entonces": "Ensalada Delight con pollo crujiente"},
-    {"si": {"tiempo": "Corto", "preferencia": "Saludable", "vegetariano": "No", "diabetico": "Sí", "categoria_comida": "Ensaladas"}, "entonces": "Ensalada con salsa césar"}
+    {"si": {"tiempo": "Corto", "preferencia": "Saludable", "vegetariano": "No", "diabetico": "Sí", "categoria_comida": "Ensaladas"}, "entonces": "Ensalada con salsa césar"},
 
     #pollo
-      
+    {"si": {"tiempo": "Corto", "preferencia": "Sabrosa", "vegetariano": "No", "diabetico": "No", "categoria_comida": "Pollo"}, "entonces": "McPollo"},
+    {"si": {"tiempo": "Medio", "preferencia": "Sabrosa", "vegetariano": "No", "diabetico": "No", "categoria_comida": "Pollo"}, "entonces": "Chicken Mayo"},
+    {"si": {"tiempo": "Largo", "preferencia": "Sabrosa", "vegetariano": "No", "diabetico": "No", "categoria_comida": "Pollo"}, "entonces": "Chicken Burger BBQ"},
+    {"si": {"tiempo": "Corto", "preferencia": "Sabrosa", "vegetariano": "No", "diabetico": "Sí", "categoria_comida": "Pollo"}, "entonces": "Alitas de Pollo"}
 ]
 
 
